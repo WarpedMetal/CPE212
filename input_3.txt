@@ -1,0 +1,19 @@
+c "Inventory Test #3"
+c "Add multiple mobs and fight"
+c "verify the goblins all die"
+
+s p r 10
+s p w 4
+s p p 6
+s p m 9
+
+s e 14
+s e 12
+s e 13
+
+a 4 12 strike
+a 6 4 greater_heal
+a 9 13 magic_missile
+a 10 14 blindside
+
+p a

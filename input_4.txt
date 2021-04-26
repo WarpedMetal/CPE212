@@ -1,0 +1,18 @@
+c "Running Full Party Test"
+c "Your rogue will pickpocket various entities"
+
+
+
+s e 12
+s e 2
+s e 3
+
+s p r 10
+
+p a
+
+a 10 2 pick_pocket 11
+a 10 3 pick_pocket 12
+a 10 12 pick_pocket 13
+
+p a 

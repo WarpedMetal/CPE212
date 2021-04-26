@@ -1,0 +1,37 @@
+c "Running Full Party Test"
+c "This will kill a monster with loot"
+c "Your players should automatically loot the monster!"
+
+
+
+
+s p m 9
+s p r 10
+s e 12
+s p p 6
+s e 3
+s e 2
+s p w 4
+
+p a
+
+a 2 4 weapon_attack
+a 3 6 weapon_attack
+a 4 2 strike
+a 6 4 greater_heal
+a 10 2 blindside
+
+p a
+
+a 4 3 strike
+a 10 3 backstab
+a 3 4 weapon_attack
+a 6 4 greater_heal
+a 9 3 magic_missile
+a 9 3 fireball
+
+p a 
+
+
+c "**********************************"
+c "**********************************"

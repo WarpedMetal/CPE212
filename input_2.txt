@@ -1,0 +1,10 @@
+c "Inventory Test #2"
+c "Verify Drizzt the Quick is in the encounter"
+c "Verify Drizzt has an inventory"
+c "P 6 should fail"
+
+s p w 5
+
+
+p 5
+p 6

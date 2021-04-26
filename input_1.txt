@@ -1,0 +1,8 @@
+c "Inventory Test #1"
+c "Verify Jim the Strong is in the encounter"
+c "P 6 should fail"
+
+s p w 4
+
+p 4
+p 6
