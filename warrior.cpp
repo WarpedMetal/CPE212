@@ -18,6 +18,40 @@ void Warrior::ShieldSmash(Entity * target)
     Attack(target, GetStrength() * 2.0, "Shield Smash");
 }
 
+void Warrior::Execute(Entity * target)
+{
+    uint32_t damageVal = 1;
+    uint32_t targetLeftoverHpPercent = (target->CurrentHP() * 100) / target->MaxHP();       // calculation for percentage bonus
+
+    // nasty 'if, else if' chain coming up, but easiest solution
+
+    if(targetLeftoverHpPercent > 50)
+    {
+        damageVal = 5;
+    }
+    else if(targetLeftoverHpPercent > 40)
+    {
+        damageVal = 10;
+    }
+    else if(targetLeftoverHpPercent > 30)
+    {
+        damageVal = 15;
+    }
+    else if(targetLeftoverHpPercent > 20)
+    {
+        damageVal = 25;
+    }
+    else if(targetLeftoverHpPercent > 10)
+    {
+        damageVal = 50;
+    }
+    else
+    {
+        damageVal = 500;
+    }
+    Attack(target, damageVal, "Execute");
+}
+
 void Warrior::OutputStatus() const
 {
     std::cout << Class() << ": " << this->Name()
