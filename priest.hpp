@@ -11,7 +11,7 @@ private:
 
     void Smite(Entity * target);
     void GreaterHeal(Entity * target);
-
+    void Revive(Entity * target);
 
 public:
     Priest(JsonEntityBuilder &builder, JsonItemBuilder & inventory, uint32_t uid);

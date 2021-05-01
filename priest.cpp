@@ -19,6 +19,18 @@ void Priest::GreaterHeal(Entity *target)
     Heal(target, GetWisdom() * 2.0, "Greater Heal");
 }
 
+void Priest::Revive(Entity * target)
+{
+    if(target->IsAlive() == false)
+    {
+        Entity::Revive(target);
+        std::cout << target->Name() << " has been brought back to life with " << target->CurrentHP() << " hp!" << std::endl;
+    }
+    else
+    {
+        std::cout << target->Name() << " is not dead and cannot be revived." << std::endl;
+    }
+}
 
 void Priest::OutputStatus() const
 {

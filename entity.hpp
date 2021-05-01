@@ -50,6 +50,7 @@ protected:
 
     void Attack(Entity * target, uint32_t amount, const std::string &attackName);
     void Heal(Entity *target, uint32_t amount, const std::string &healName);
+    void Revive(Entity *target);        // new instance of function meant only for reviving players
 
 public:
 

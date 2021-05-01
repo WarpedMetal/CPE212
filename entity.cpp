@@ -97,9 +97,14 @@ void Entity::Attack(Entity *target, uint32_t amount, const std::string &attackNa
 void Entity::Heal(Entity *target, uint32_t amount, const std::string & healName)
 {
     std::cout << this->Name() << " uses " << healName << " on target "
-              << target->Name() << " healing for " << amount
-              << std::endl;
+        << target->Name() << " healing for " << amount
+        << std::endl;
     target->take_healing(amount);
+}
+
+void Entity::Revive(Entity *target)
+{
+    target->_hp = target->_maxHP / 2;
 }
 
 void Entity::take_damage(uint32_t amount)
