@@ -58,6 +58,7 @@ public:
     virtual ~Entity();
 
     uint32_t CurrentHP() const;
+    uint32_t MaxHP() const;             // new function meant to return an Entity's max hp value
     bool IsAlive() const;
     std::string Name() const;
     std::string Race() const;

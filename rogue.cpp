@@ -23,6 +23,19 @@ void Rogue::Blindside(Entity * target)
     Attack(target, 20, "Blindside");
 }
 
+void Rogue::SurpriseStrike(Entity * target)
+{
+    uint32_t baseDmgVal = 15;
+    if(target->MaxHP() > target->CurrentHP())
+    {
+        Attack(target, baseDmgVal / 2, "SurpriseStrike");       // if current hp is less than max hp, do half damage
+    }
+    else
+    {
+        Attack(target, baseDmgVal * 2, "SurpriseStrike");       // otherwise, if target is at max hp, do double damage
+    }
+}
+
 void Rogue::OutputStatus() const
 {
     std::cout << Class() << ": " << this->Name()

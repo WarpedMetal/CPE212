@@ -12,6 +12,7 @@ private:
     void Backstab(Entity * target);
     void Blindside(Entity * target);
     void PickPocket(Entity * target, uint32_t itemUID);
+    void SurpriseStrike(Entity * target);
 
 public:
     Rogue(JsonEntityBuilder &builder, JsonItemBuilder & inventory, uint32_t uid);

@@ -71,6 +71,11 @@ uint32_t Entity::CurrentHP() const
     return _hp;
 }
 
+uint32_t Entity::MaxHP() const
+{
+    return _maxHP;
+}
+
 bool Entity::IsAlive() const
 {
     return _hp != 0;
