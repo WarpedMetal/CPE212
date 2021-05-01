@@ -10,6 +10,7 @@ class Mage : public Entity
 private:
     void Fireball(Entity * target);
     void MagicMissiles(Entity * target);
+    void SheerCold(Entity * target);
 
 public:
 

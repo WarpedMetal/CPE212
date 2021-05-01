@@ -1,0 +1,215 @@
+{
+    "entities" : [  
+        {
+          "UID" : 1, 
+          "hp" : 215,
+          "Name" : "Snaggletooth",
+          "race" : "Hob-Goblin",
+          "weapon_damage" : 4, 
+          "inventory" : [1, 13]
+        },
+        {
+          "UID" : 2, 
+          "hp" : 25,
+          "Name" : "Hobgoblin",
+          "race" : "Goblin",
+          "weapon_damage" : 6, 
+          "inventory" : [2, 11, 10, 4]
+        },
+        {
+          "UID" : 3, 
+          "hp" : 75,
+          "Name" : "Great Goblin",
+          "race" : "Goblin",
+          "weapon_damage" : 4, 
+          "inventory" : [12, 4]
+        }, 
+        {
+          "UID" : 12, 
+          "hp" : 6,
+          "Name" : "Bad Goblin 1",
+          "race" : "Goblin",
+          "weapon_damage" : 1, 
+          "inventory" : [13]
+        }, 
+        {
+          "UID" : 13, 
+          "hp" : 6,
+          "Name" : "Bad Goblin 2",
+          "race" : "Goblin",
+          "weapon_damage" : 1, 
+          "inventory" : []
+        }, 
+        {
+          "UID" : 14, 
+          "hp" : 6,
+          "Name" : "Bad Goblin 3",
+          "race" : "Goblin",
+          "weapon_damage" : 1, 
+          "inventory" : []
+        }, 
+        {
+            "UID" : 4, 
+            "hp" : 15,
+            "Name" : "Jim the Strong",
+            "race" : "Human",
+            "class" : "Warrior",
+            "strength" : 17,
+            "weapon_damage" : 7, 
+            "inventory" : []
+        }, 
+        {
+            "UID" : 5, 
+            "hp" : 12,
+            "Name" : "Drizzt the Quick",
+            "race" : "Elf",
+            "class" : "Warrior",
+            "strength" : 14,
+            "weapon_damage" : 6, 
+            "inventory" : [2, 3, 1, 4]
+        }, 
+        {
+            "UID" : 6, 
+            "hp" : 9,
+            "Name" : "Healer McMedic",
+            "race" : "Human",
+            "class" : "Priest",
+            "wisdom" : 16,
+            "strength" : 14,
+            "weapon_damage" : 6, 
+            "inventory" : []
+        }, 
+        {
+            "UID" : 7, 
+            "hp" : 8,
+            "Name" : "Meryl Highchurch",
+            "race" : "Human",
+            "class" : "Priest",
+            "wisdom" : 15,
+            "strength" : 12,
+            "weapon_damage" : 4, 
+            "inventory" : []
+        }, 
+        {
+            "UID" : 8, 
+            "hp" : 6,
+            "Name" : "Astalor Bloodsworn",
+            "race" : "Elf",
+            "class" : "Mage",
+            "intelligence" : 16,
+            "weapon_damage" : 4, 
+            "inventory" : []
+        }, 
+        {
+            "UID" : 9, 
+            "hp" : 5,
+            "Name" : "Uniden",
+            "race" : "Human",
+            "class" : "Mage",
+            "intelligence" : 17,
+            "weapon_damage" : 4, 
+            "inventory" : []
+        }, 
+        {
+            "UID" : 10, 
+            "hp" : 7,
+            "Name" : "Elva",
+            "race" : "Human",
+            "class" : "Rogue",
+            "agility" : 17,
+            "weapon_damage" : 4, 
+            "inventory" : []
+        }, 
+        {
+            "UID" : 11, 
+            "hp" : 9,
+            "Name" : "Milton",
+            "race" : "Halfling",
+            "class" : "Rogue",
+            "agility" : 17,
+            "weapon_damage" : 4, 
+            "inventory" : []
+        }
+    ],
+    "items" : 
+    [
+        {
+            "UID" : 1,
+            "name" : "Random Weapon",
+            "type" : "mace",
+            "damage" : 1
+        },
+        {
+            "UID": 2,
+            "name": "Sword of a Thousand Truths",
+            "type": "sword",
+            "damage": 20
+        },
+        {
+            "UID" : 3,
+            "name" : "Dark Saber", 
+            "type" : "lazer-sword", 
+            "damage" : 25
+        },
+        {
+            "UID" : 4, 
+            "name" : "Nameless Chest Armor", 
+            "type" : "chest", 
+            "armor value" : 10
+        },
+        {
+            "UID" : 5, 
+            "name" : "The One Ring", 
+            "type" : "ring", 
+            "armor value" : 12
+        },
+        {
+            "UID" : 6, 
+            "name" : "Excalibur", 
+            "type" : "sword", 
+            "damage" : 15
+        },
+        {
+            "UID" : 7, 
+            "name" : "Nægling", 
+            "type" : "sword", 
+            "damage" : 13
+        },
+        {
+            "UID" : 8, 
+            "name" : "Mjölnir", 
+            "type" : "mace", 
+            "damage" : 11
+        },
+        {
+            "UID" : 9, 
+            "name" : "Master Sword", 
+            "type" : "sword", 
+            "damage" : 14
+        },
+        {
+            "UID" : 10, 
+            "name" : "Duskblade of Draktharr", 
+            "type" : "sword", 
+            "damage" : 14
+        },
+        {
+            "UID" : 11, 
+            "name" : "Riftmaker", 
+            "type" : "staff", 
+            "damage" : 4
+        },
+        {
+            "UID" : 12, 
+            "name" : "aghanim's scepter", 
+            "type" : "staff", 
+            "damage" : 4
+        },
+        {
+            "UID" : 13, 
+            "name" : "Heart of Tarrasque", 
+            "type" : "shield", 
+            "armor value" : 22
+        }
+    ]
+}
